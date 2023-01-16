@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Donghyub Lim",
+    name: "Donghyun Lim",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
     bio: "깊게 알기 위해 노력하는 개발자 임동현입니다.",

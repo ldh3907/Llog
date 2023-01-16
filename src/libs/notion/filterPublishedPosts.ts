@@ -22,6 +22,7 @@ export default function filterPublishedPosts({
     )
     .filter((post: any) => {
       const postDate = new Date(post?.date?.start_date || post.createdTime)
+
       return (
         post.title &&
         post.slug &&
@@ -29,5 +30,6 @@ export default function filterPublishedPosts({
         postDate < tomorrow
       )
     })
+
   return publishedPosts
 }
